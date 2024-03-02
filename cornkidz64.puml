@@ -1,0 +1,236 @@
+@startuml
+hide circle
+hide empty members
+skinparam linetype ortho
+class "Menu"
+"Menu" : {field} XP-ansion Pak
+"Menu" : {field} Private Screw'l
+"Menu" : {field} maXPower
+"Menu" --> "Nacho Emporium"
+class "Nacho Emporium"
+"Nacho Emporium" --> "Lexi's Monster Park"
+"Nacho Emporium" --> "Wollow's Hollow"
+"Nacho Emporium" --> "Tower"
+"Nacho Emporium" --> "Anxiety Tower"
+class "Lexi's Monster Park"
+"Lexi's Monster Park" : {field} Cube (Park Near Slide)
+"Lexi's Monster Park" : {field} Cube (Park Slide)
+"Lexi's Monster Park" : {field} Cube (Park Under Slide)
+"Lexi's Monster Park" : {field} Cube (Park Bouncy Moose)
+"Lexi's Monster Park" : {field} Cube (Park Top Hat)
+"Lexi's Monster Park" : {field} Cube (Park Fence)
+"Lexi's Monster Park" : {field} Cube (Park Lower Slam Pillar)
+"Lexi's Monster Park" : {field} Cube (Park Upper Slam Pillar)
+"Lexi's Monster Park" : {field} Chameleon (Park)
+"Lexi's Monster Park" : {field} Trash Can (Park)
+"Lexi's Monster Park" : {field} Void Screw (Park Top Hat)
+"Lexi's Monster Park" : {field} Void Screw (Park Out of Bounds)
+"Lexi's Monster Park" : {field} Smoking Kills
+"Lexi's Monster Park" : {field} Magical Tetnis Challenge
+"Lexi's Monster Park" --> "Lexi's Monster Park (Across Lake)"
+"Lexi's Monster Park" --> "Wollow's Hollow (Haunted House Ground Floor)"
+"Lexi's Monster Park" --> "Lexi's Monster Park (Attic)"
+"Lexi's Monster Park" --> "Lexi's Monster Park (Sewers)"
+class "Wollow's Hollow"
+"Wollow's Hollow" : {field} Cube (Hollow Bridge #1)
+"Wollow's Hollow" : {field} Cube (Hollow Bridge #2)
+"Wollow's Hollow" : {field} Cube (Hollow Bridge #3)
+"Wollow's Hollow" : {field} Cube (Hollow On Trees)
+"Wollow's Hollow" : {field} Cube (Hollow Leaves Under Owl Tree)
+"Wollow's Hollow" : {field} Cube (Hollow Leaves On Owl Tree)
+"Wollow's Hollow" : {field} Cube (Hollow Pillar #1)
+"Wollow's Hollow" : {field} Cube (Hollow Pillar #2)
+"Wollow's Hollow" : {field} Cube (Hollow Trampoline)
+"Wollow's Hollow" : {field} Cube (Hollow Trinket Shop)
+"Wollow's Hollow" : {field} Cube (Hollow Clock Wall Climb #1)
+"Wollow's Hollow" : {field} Cube (Hollow Clock Wall Climb #2)
+"Wollow's Hollow" : {field} Cube (Hollow Pillar Outside Church)
+"Wollow's Hollow" : {field} Cube (Hollow Clockwise Vomit)
+"Wollow's Hollow" : {field} Cube (Hollow Fart Tunnel #1)
+"Wollow's Hollow" : {field} Cube (Hollow Fart Tunnel #2)
+"Wollow's Hollow" : {field} Cube (Hollow Balcony #1)
+"Wollow's Hollow" : {field} Cube (Hollow Balcony #2)
+"Wollow's Hollow" : {field} Cube (Hollow Drill Under Ramp)
+"Wollow's Hollow" : {field} Cube (Hollow Drill Bars #1)
+"Wollow's Hollow" : {field} Cube (Hollow Drill Bars #2)
+"Wollow's Hollow" : {field} Cube (Hollow Drill Under Church #1)
+"Wollow's Hollow" : {field} Cube (Hollow Drill Under Church #2)
+"Wollow's Hollow" : {field} Cube (Hollow Drill Dragon Mountainside #1)
+"Wollow's Hollow" : {field} Cube (Hollow Drill Dragon Mountainside #2)
+"Wollow's Hollow" : {field} Cube (Hollow Haunted House Top #1)
+"Wollow's Hollow" : {field} Cube (Hollow Haunted House Top #2)
+"Wollow's Hollow" : {field} Cube (Hollow Brick Wall #1)
+"Wollow's Hollow" : {field} Cube (Flipped Hollow Fountain Swim #1)
+"Wollow's Hollow" : {field} Cube (Flipped Hollow Fountain Swim #2)
+"Wollow's Hollow" : {field} Cube (Flipped Hollow Fountain Swim #3)
+"Wollow's Hollow" : {field} Cube (Flipped Hollow Fountain Swim #4)
+"Wollow's Hollow" : {field} Screw (Hollow Town Clock)
+"Wollow's Hollow" : {field} Screw (Hollow Large Crank Pit)
+"Wollow's Hollow" : {field} Screw (Flipped Hollow Tree Side Room)
+"Wollow's Hollow" : {field} Chameleon (Hollow Bush)
+"Wollow's Hollow" : {field} Crystal (Hollow Timed Fountain)
+"Wollow's Hollow" : {field} Crystal (Hollow Drill Pillar)
+"Wollow's Hollow" : {field} Crystal (Hollow Free Stuck Pig)
+"Wollow's Hollow" : {field} Crystal (Hollow Bomb Church Pillar)
+"Wollow's Hollow" : {field} Crystal (Flipped Hollow Counterclockwise Vomit)
+"Wollow's Hollow" : {field} Mirror (Hollow Zoo-Side Crank)
+"Wollow's Hollow" : {field} Mirror (Flipped Hollow Dragon Crank)
+"Wollow's Hollow" : {field} Disco Ball (Hollow Trinket Shop)
+"Wollow's Hollow" : {field} Disco Ball (Hollow Dragon Chest)
+"Wollow's Hollow" : {field} Bottle Cap (Hollow Zoo-Side Crank)
+"Wollow's Hollow" : {field} Void Screw (Hollow Outside Trinket Shop)
+"Wollow's Hollow" : {field} Miracle Soda #1
+"Wollow's Hollow" : {field} I'm a Lasagna Hog
+"Wollow's Hollow" : {field} Corn Syrup
+"Wollow's Hollow" : {field} heroes in a Whole Shell
+"Wollow's Hollow" --> "Wollow's Hollow (Church)"
+"Wollow's Hollow" --> "Wollow's Hollow (Music Box)"
+"Wollow's Hollow" --> "Wollow's Hollow (Ravine)"
+"Wollow's Hollow" --> "Wollow's Hollow (Trinket Shop)"
+"Wollow's Hollow" --> "Wollow's Hollow (Rooftops)"
+"Wollow's Hollow" --> "Wollow's Hollow (Outside Zoo)"
+"Wollow's Hollow" --> "Wollow's Hollow (Tree)"
+"Wollow's Hollow" --> "Wollow's Hollow (Tree Side Room)"
+"Wollow's Hollow" --> "Some Other Place"
+class "Tower"
+"Tower" : {method} <&lock-locked> Tower Complete: //**Tower Complete**//
+"Tower" : {field} <&lock-unlocked,color=transparent> Get N(achos) or Get Out
+class "Anxiety Tower"
+"Anxiety Tower" : {field} <&lock-unlocked,color=transparent> Void Screw (Anxiety Tower #1)
+"Anxiety Tower" : {field} <&lock-unlocked,color=transparent> Void Screw (Anxiety Tower #2)
+"Anxiety Tower" : {field} <&lock-unlocked,color=transparent> Crank (Anxiety Tower)
+"Anxiety Tower" : {method} <&lock-locked> Anxiety Tower Complete: //**Anxiety Tower Complete**//
+"Anxiety Tower" : {field} <&lock-unlocked,color=transparent> Anxiety Attack
+"Anxiety Tower" : {field} <&lock-unlocked,color=transparent> Feast Fit For a Kid
+class "Lexi's Monster Park (Across Lake)"
+"Lexi's Monster Park (Across Lake)" : {field} Cube (Park Across Water #1)
+"Lexi's Monster Park (Across Lake)" : {field} Cube (Park Across Water #2)
+"Lexi's Monster Park (Across Lake)" : {field} Cube (Park Across Water #3)
+"Lexi's Monster Park (Across Lake)" : {field} Cube (Park Across Water #4)
+"Lexi's Monster Park (Across Lake)" : {field} Cube (Stone Statue #1)
+"Lexi's Monster Park (Across Lake)" : {field} Cube (Stone Statue #2)
+"Lexi's Monster Park (Across Lake)" : {field} Cube (Stone Statue #3)
+"Lexi's Monster Park (Across Lake)" : {field} Cube (Park Drill Past Lake)
+"Lexi's Monster Park (Across Lake)" : {field} Screw (Park Lake Bomb Yeet)
+"Lexi's Monster Park (Across Lake)" : {field} Screw (Park Above Crank)
+"Lexi's Monster Park (Across Lake)" : {field} Crank (Monster Park Across Lake)
+class "Wollow's Hollow (Haunted House Ground Floor)"
+"Wollow's Hollow (Haunted House Ground Floor)" : {field} Crystal (Hollow Haunted House Free Bird)
+class "Lexi's Monster Park (Attic)"
+"Lexi's Monster Park (Attic)" : {field} Cube (Park Attic Drill #1)
+"Lexi's Monster Park (Attic)" : {field} Cube (Park Attic Drill #2)
+"Lexi's Monster Park (Attic)" : {field} Cube (Park Attic High #1)
+"Lexi's Monster Park (Attic)" : {field} Cube (Park Attic High #2)
+"Lexi's Monster Park (Attic)" : {field} Cube (Park Attic Hallway)
+"Lexi's Monster Park (Attic)" : {field} Screw (Park Attic Screw Screw)
+"Lexi's Monster Park (Attic)" : {field} Screw (Park Attic Drill)
+"Lexi's Monster Park (Attic)" : {field} Crystal (Park Attic)
+"Lexi's Monster Park (Attic)" : {field} Trash Can (Attic #1)
+"Lexi's Monster Park (Attic)" : {field} Trash Can (Attic #2)
+class "Lexi's Monster Park (Sewers)"
+"Lexi's Monster Park (Sewers)" : {field} Crystal (Garbage Grump)
+"Lexi's Monster Park (Sewers)" : {field} Mirror (Park Sewers)
+"Lexi's Monster Park (Sewers)" : {field} Trash Can (Sewers)
+class "Wollow's Hollow (Church)"
+"Wollow's Hollow (Church)" : {field} Cube (Hollow Church #1)
+"Wollow's Hollow (Church)" : {field} Cube (Hollow Church #2)
+"Wollow's Hollow (Church)" : {field} Cube (Hollow Church #3)
+"Wollow's Hollow (Church)" : {field} Void Screw (Hollow Church)
+"Wollow's Hollow (Church)" : {field} Fall Warp
+"Wollow's Hollow (Church)" --> "Wollow's Hollow (Graveyard from Church)"
+"Wollow's Hollow (Church)" --> "Wollow's Hollow (Church Top)"
+class "Wollow's Hollow (Music Box)"
+"Wollow's Hollow (Music Box)" : {field} Cube (Hollow Music Box Swim #1)
+"Wollow's Hollow (Music Box)" : {field} Cube (Hollow Music Box Swim #2)
+"Wollow's Hollow (Music Box)" : {field} Cube (Hollow Brick Wall #2)
+"Wollow's Hollow (Music Box)" : {field} Disco Ball (Hollow Music Box)
+class "Wollow's Hollow (Ravine)"
+"Wollow's Hollow (Ravine)" : {field} Cube (Hollow Ravine #1)
+"Wollow's Hollow (Ravine)" : {field} Cube (Hollow Ravine #2)
+"Wollow's Hollow (Ravine)" : {field} Cube (Hollow Ravine #3)
+"Wollow's Hollow (Ravine)" : {field} Cube (Hollow Fenced Across Ravine)
+"Wollow's Hollow (Ravine)" : {field} Crystal (Hollow Above Entry)
+"Wollow's Hollow (Ravine)" : {field} Crank (Hollow Ravine)
+"Wollow's Hollow (Ravine)" : {field} Bottle Cap (Hollow Ravine Climb)
+class "Wollow's Hollow (Trinket Shop)"
+"Wollow's Hollow (Trinket Shop)" : {field} Crystal (Flipped Hollow Gassy Moosey)
+"Wollow's Hollow (Trinket Shop)" --> "Wollow's Hollow (Zombie Chamber)"
+class "Wollow's Hollow (Rooftops)"
+"Wollow's Hollow (Rooftops)" --> "Wollow's Hollow (Caged Rooftop)"
+class "Wollow's Hollow (Outside Zoo)"
+"Wollow's Hollow (Outside Zoo)" : {field} Cube (Hollow Behind Sanitary Zoo)
+"Wollow's Hollow (Outside Zoo)" : {field} Cube (Hollow Spider Outside Zoo)
+"Wollow's Hollow (Outside Zoo)" : {field} Bottle Cap (Hollow Zoo Rooftop)
+"Wollow's Hollow (Outside Zoo)" --> "Wollow's Hollow (Sanitary Zoo)"
+class "Wollow's Hollow (Tree)"
+"Wollow's Hollow (Tree)" : {field} <&lock-unlocked,color=transparent> Cube (Hollow Tree Fish Timer)
+"Wollow's Hollow (Tree)" : {field} <&lock-unlocked,color=transparent> Cube (Hollow Tree Swim)
+"Wollow's Hollow (Tree)" : {field} <&lock-unlocked,color=transparent> Cube (Hollow Tree Near Metal Worm)
+"Wollow's Hollow (Tree)" : {field} <&lock-unlocked,color=transparent> Screw (Hollow Tree High Screw)
+"Wollow's Hollow (Tree)" : {field} <&lock-unlocked,color=transparent> Screw (Hollow Tree Low Screw)
+"Wollow's Hollow (Tree)" : {field} <&lock-unlocked,color=transparent> Void Screw (Tree)
+"Wollow's Hollow (Tree)" : {field} <&lock-unlocked,color=transparent> Metal Worm
+"Wollow's Hollow (Tree)" : {method} <&lock-locked> Defeat Owlloh: //**Defeat Owlloh**//
+"Wollow's Hollow (Tree)" : {field} <&lock-unlocked,color=transparent> Highdive
+class "Wollow's Hollow (Tree Side Room)"
+"Wollow's Hollow (Tree Side Room)" : {field} Cube (Flipped Hollow Dragon Crank Drill)
+class "Some Other Place"
+"Some Other Place" : {field} <&lock-unlocked,color=transparent> Void Screw (Some Other Place)
+"Some Other Place" : {field} <&lock-unlocked,color=transparent> Miracle Soda #2
+"Some Other Place" : {method} <&lock-locked> Dog God: //**Dog God**//
+"Some Other Place" : {field} <&lock-unlocked,color=transparent> Annoyed the Void
+class "Wollow's Hollow (Graveyard from Church)"
+"Wollow's Hollow (Graveyard from Church)" : {field} Mirror (Hollow Graveyard)
+"Wollow's Hollow (Graveyard from Church)" --> "Wollow's Hollow (Graveyard)"
+class "Wollow's Hollow (Church Top)"
+"Wollow's Hollow (Church Top)" : {field} Crystal (Hollow Church Bell)
+class "Wollow's Hollow (Zombie Chamber)"
+"Wollow's Hollow (Zombie Chamber)" : {field} Crystal (Hollow Zombie Chamber)
+"Wollow's Hollow (Zombie Chamber)" : {field} Disco Ball (Hollow Zombie Chamber)
+"Wollow's Hollow (Zombie Chamber)" : {field} Void Screw (Kill Fish)
+class "Wollow's Hollow (Caged Rooftop)"
+"Wollow's Hollow (Caged Rooftop)" : {field} Cube (Hollow Near Bats #1)
+"Wollow's Hollow (Caged Rooftop)" : {field} Cube (Hollow Near Bats #2)
+"Wollow's Hollow (Caged Rooftop)" : {field} Screw (Hollow Drill Tower Alcove)
+"Wollow's Hollow (Caged Rooftop)" : {field} Void Screw (Hollow Sky)
+"Wollow's Hollow (Caged Rooftop)" --> "Wollow's Hollow (Drill Chamber)"
+class "Wollow's Hollow (Sanitary Zoo)"
+"Wollow's Hollow (Sanitary Zoo)" : {field} Screw (Hollow Zoo)
+"Wollow's Hollow (Sanitary Zoo)" : {field} Mirror (Zoo Metal Worm)
+"Wollow's Hollow (Sanitary Zoo)" : {field} Disco Ball (Hollow Clean Zoo)
+"Wollow's Hollow (Sanitary Zoo)" : {field} HOWDY
+class "Wollow's Hollow (Graveyard)"
+"Wollow's Hollow (Graveyard)" : {field} Cube (Hollow Graveyard Pole #1)
+"Wollow's Hollow (Graveyard)" : {field} Cube (Hollow Graveyard Taco Cat)
+"Wollow's Hollow (Graveyard)" : {field} Cube (Hollow Graveyard Pole #2)
+"Wollow's Hollow (Graveyard)" : {field} Cube (Hollow Graveyard Behind Wet Tree)
+"Wollow's Hollow (Graveyard)" : {field} Cube (Hollow Graveyard Water)
+"Wollow's Hollow (Graveyard)" : {field} Cube (Hollow Graveyard Tombstone Code #1)
+"Wollow's Hollow (Graveyard)" : {field} Cube (Hollow Graveyard Tombstone Code #2)
+"Wollow's Hollow (Graveyard)" : {field} Cube (Hollow Graveyard Tombstone Code #3)
+"Wollow's Hollow (Graveyard)" : {field} Cube (Hollow Drill Room #2)
+"Wollow's Hollow (Graveyard)" : {field} Cube (Hollow Drill Room #3)
+"Wollow's Hollow (Graveyard)" : {field} Cube (Hollow Graveyard Spider Cave Drill)
+"Wollow's Hollow (Graveyard)" : {field} Screw (Hollow Behind Haunted House)
+"Wollow's Hollow (Graveyard)" : {field} Chameleon (Hollow Graveyard)
+"Wollow's Hollow (Graveyard)" : {field} Crystal (Hollow Graveyard Spider Reward)
+"Wollow's Hollow (Graveyard)" : {field} Crank (Hollow Haunted House Ground Floor)
+"Wollow's Hollow (Graveyard)" : {field} Bottle Cap (Hollow Graveyard)
+"Wollow's Hollow (Graveyard)" : {field} Bottle Cap (Hollow Graveyard Inside Wet Tree)
+"Wollow's Hollow (Graveyard)" : {field} Cheese Grater
+"Wollow's Hollow (Graveyard)" --> "Wollow's Hollow"
+"Wollow's Hollow (Graveyard)" --> "Wollow's Hollow (Haunted House Ground Floor)"
+"Wollow's Hollow (Graveyard)" --> "Wollow's Hollow (Dragon Cave)"
+class "Wollow's Hollow (Drill Chamber)"
+"Wollow's Hollow (Drill Chamber)" : {field} Cube (Hollow Drill Room #1)
+"Wollow's Hollow (Drill Chamber)" : {field} Drill
+class "Wollow's Hollow (Dragon Cave)"
+"Wollow's Hollow (Dragon Cave)" : {field} Screw (Hollow Dragon Cave)
+"Wollow's Hollow (Dragon Cave)" : {field} Crystal (Hollow Dragon Cave)
+package "other regions" <<Cloud>> {
+class "Lexi's Monster Park (House)"
+class "Lexi's Monster Park (House Foyer)"
+class "Lexi's Monster Park (Top)"
+class "Wollow's Hollow (Haunted House Top FLoor)"
+}
+@enduml

@@ -1,0 +1,87 @@
+Corn Kidz 64:
+  goal: "owlloh"
+  # The clear condition for beating the game.
+  # Accepted values: "owlloh", "tower", "anxiety", "god"
+  
+  goat_color: "red"
+  # Seve's color.
+  # Accepted values: "red", "green", "blue"
+  
+  xp_count: 72
+  # The amount of XP items in the item pool. XP becomes evenly distributed across the game.
+  # Setting this number too high may cause generation to fail.
+  # Range: 1 - 360
+  # XP requirements for reference:
+  # Level 1: 0 XP
+  # Level 2: 70 XP
+  # Level 3: 140 XP
+  # Level 4: 200 XP
+  # Level 5: 300 XP
+  # Level 6: 360 XP
+  
+  max_hp: 8
+  # Seve's starting max HP.
+  # Adds max HP items up to 10 in the item pool.
+  # The Mega Dream Soda in Some Other Place is excluded.
+  # Range: 1 - 10
+  
+  cranksanity: true
+  # Locations where cranks would normally be placed are randomized as individual checks.
+  # For example, "Crank (Monster Park House Entrance)"
+  # Disabling this preserves crank functionality (and makes them linear).
+  
+  ratsanity: true
+  # Sanitary Zoo Rats are randomized in the item pool.
+  
+  achievements: true
+  # Adds all achievements as location checks.
+  # The mirror for "Catch the Cans" will not despawn until its check is completed.
+  
+  trap_percentage: 25
+  # Determines how many junk items become traps when generating the item pool.
+  # Range: 0 - 100
+  
+  ###
+  ### Movement randomizer
+  ### Setting any of these to false randomizes its ability.
+  ###
+  
+  can_jump: true
+  # Determines if Seve can jump by default.
+  
+  can_punch: true
+  # Determines if Seve can punch by default.
+  
+  can_climb: true
+  # Determines if Seve can climb ledges or pipes by default.
+  
+  can_ground_pound: true
+  # Determines if Seve can slam into the ground by default.
+  
+  can_headbutt: true
+  # Determines if Seve can perform aerial or grounded headbutts by default.
+  
+  can_wall_jump: true
+  # Determines if Seve can wall jump by default.
+  
+  can_swim: true
+  # Determines if Seve can swim underwater by default.
+  # Seve can gay doggy paddle regardless of setting.
+  
+  can_crouch: true
+  # Determines if Seve can crouch by default.
+  # Allows for vertical and grounded headbutts.
+  
+  can_drill: false
+  # Determines if Seve can drill into the ground by default.
+  
+  can_fall_warp: true
+  # Determines if Seve can fall warp by default.
+  
+  death_link: false
+  # When you die, everyone dies. The reverse is also true.
+
+  progression_balancing: 64
+  accessibility: items
+game: Corn Kidz 64
+name: Seve
